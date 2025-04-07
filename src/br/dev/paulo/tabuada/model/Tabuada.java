@@ -38,6 +38,8 @@ public class Tabuada {
 			menorMultiplicador = temp;
 		}
 	 
+		int tamanhoVetor = (int) (maiorMultiplicador - menorMultiplicador + 1);
+		String tabuada[] = new String[tamanhoVetor];
 
 	while(menorMultiplicador<= maiorMultiplicador) {
 		
